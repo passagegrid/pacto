@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Anchor
+.anchor/
+target/
+test-ledger/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.bak2
+
+# Vendor (external deps)
+vendor/

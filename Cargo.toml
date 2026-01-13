@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "programs/settla_escrow"
+]
+
+[profile.release]
+overflow-checks = true
+
+[patch.crates-io]
+blake3 = { path = "vendor/blake3" }
